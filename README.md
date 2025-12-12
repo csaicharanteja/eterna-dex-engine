@@ -28,3 +28,9 @@ To support Limit Orders, I would introduce a Redis Sorted Set (ZSET). Orders wou
 1. **Start Redis** (Required):
    ```bash
    redis-server
+2.Install Dependencies:
+  npm install
+3. Start the Engine:
+npm run dev
+4. Run Tests:
+npm test
